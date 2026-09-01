@@ -23,9 +23,7 @@ console.log("User selected:", answer);
 let name = prompt("Enter your name:");
 document.writeln("Your name is: " + name);
 
-
-
-// TASK-1
+// TASK 1
 var studentName = "Mithun";
 let studentAge = 26;
 const collegeName = "Mount Carmel College";
@@ -34,14 +32,30 @@ console.log(studentName);
 console.log(studentAge);
 console.log(collegeName);
 
-studentName = "Mithun";
+//Change the var value
+
+studentName = "Vasanth";
+console.log("Changed Student Name:", studentName);
+
+//Change the let value
+
+studentAge = 23;
+console.log("Changed Student Age:", studentAge);
+
+//Try changing the const value 
+// Uncomment the next line to observe the error
+
+//collegeName = "Joesph's College"
+
+//Try redeclaring the var variable
+
+var studentName = "Giri";
 console.log(studentName);
 
-studentAge = 26;
-console.log(studentAge);
+//Try redeclaring the let variable 
+//Uncomment the next line to observe the error
 
-var studentName = "Mithun";
-console.log(studentName);
+//let studentAge = 30;
 
 //TASK2
 let name1 = prompt("Enter your name");
